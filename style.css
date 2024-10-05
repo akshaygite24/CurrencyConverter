@@ -1,0 +1,86 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh; /* Make sure the body covers the full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #f0f0f0; /* Optional background color */
+    font-family: Arial, sans-serif;
+}
+
+/* Container styling */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Optional, depending on how wide you want it */
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.amount,
+.dropdowm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center; /* Centers the items horizontally */
+}
+
+/* Center the flag and select input */
+.select-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center; /* Ensures everything in the select container is centered */
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.fa-arrow-right-arrow-left {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+}
+
+.message p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
